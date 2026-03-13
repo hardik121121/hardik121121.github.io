@@ -1,0 +1,130 @@
+{
+  "basics": {
+    "nameKey": "basics.name",
+    "labelKey": "basics.label",
+    "summaryKey": "basics.summary",
+    "image": "",
+    "email": "hardikarora483@gmail.com",
+    "phone": "",
+    "url": "https://hardikarora.me/",
+    "location": {
+      "address": "H no.2 Priyanka Puram, Sarla Bagh, Dayal Bagh",
+      "postalCode": "282005",
+      "city": "Agra",
+      "countryCode": "IN",
+      "region": "Uttar Pradesh"
+    },
+    "socialMedia": {
+      "linkedIn": {
+        "url": "https://www.linkedin.com/in/hardik-arora-a34143298/"
+      },
+      "github": {
+        "url": "https://github.com/hardik121121"
+      }
+    }
+  },
+  "work": [
+    {
+      "id": "watermelon",
+      "nameKey": "work.watermelon.name",
+      "locationKey": "work.watermelon.location",
+      "positionKey": "work.watermelon.position",
+      "summaryKey": "work.watermelon.summary",
+      "url": "https://www.watermelon.us/",
+      "logo": "/logo/watermelon.svg",
+      "logoDark": "/logo/watermelon.svg",
+      "startDate": "10/25",
+      "endDateKey": "work.watermelon.end-date",
+      "highlights": [
+        "work.watermelon.highlights.rag-system",
+        "work.watermelon.highlights.slo-copilot"
+      ],
+      "skills": [
+        { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
+        { "id": "langchain", "nameKey": "skills.langchain", "url": "https://www.langchain.com/" },
+        { "id": "openai", "nameKey": "skills.openai", "url": "https://openai.com/" },
+        { "id": "fastapi", "nameKey": "skills.fastapi", "url": "https://fastapi.tiangolo.com/" }
+      ]
+    },
+    {
+      "id": "materiallab",
+      "nameKey": "work.materiallab.name",
+      "locationKey": "work.materiallab.location",
+      "positionKey": "work.materiallab.position",
+      "summaryKey": "work.materiallab.summary",
+      "url": "https://www.materiallab.io/",
+      "logo": "/logo/materiallab.svg",
+      "logoDark": "/logo/materiallab.svg",
+      "startDate": "06/25",
+      "endDateKey": "work.materiallab.end-date",
+      "highlights": [
+        "work.materiallab.highlights.hendrix",
+        "work.materiallab.highlights.gymbo",
+        "work.materiallab.highlights.landing-pages"
+      ],
+      "skills": [
+        { "id": "react", "nameKey": "skills.react", "url": "https://react.dev/" },
+        { "id": "nextjs", "nameKey": "skills.nextjs", "url": "https://nextjs.org/" },
+        { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
+        { "id": "openai", "nameKey": "skills.openai", "url": "https://openai.com/" }
+      ]
+    },
+    {
+      "id": "yantrapragya",
+      "nameKey": "work.yantrapragya.name",
+      "locationKey": "work.yantrapragya.location",
+      "positionKey": "work.yantrapragya.position",
+      "summaryKey": "work.yantrapragya.summary",
+      "url": "https://www.yantrapragya.com/",
+      "logo": "/logo/yantrapragya.svg",
+      "logoDark": "/logo/yantrapragya.svg",
+      "startDate": "05/25",
+      "endDateKey": "work.yantrapragya.end-date",
+      "highlights": [
+        "work.yantrapragya.highlights.pathology",
+        "work.yantrapragya.highlights.dental"
+      ],
+      "skills": [
+        { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
+        { "id": "tensorflow", "nameKey": "skills.tensorflow", "url": "https://www.tensorflow.org/" },
+        { "id": "opencv", "nameKey": "skills.opencv", "url": "https://opencv.org/" },
+        { "id": "pandas", "nameKey": "skills.pandas", "url": "https://pandas.pydata.org/" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "attendance",
+      "nameKey": "projects.attendance.name",
+      "descriptionKey": "projects.attendance.description",
+      "logo": "/logo/episo.svg",
+      "logoDark": "/logo/episo-dark.svg",
+      "year": "2025"
+    },
+    {
+      "id": "fincai",
+      "nameKey": "projects.fincai.name",
+      "descriptionKey": "projects.fincai.description",
+      "logo": "/logo/episo.svg",
+      "logoDark": "/logo/episo-dark.svg",
+      "year": "2025"
+    }
+  ],
+  "skills": [
+    { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
+    { "id": "javascript", "nameKey": "skills.javascript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { "id": "react", "nameKey": "skills.react", "url": "https://react.dev/" },
+    { "id": "nextjs", "nameKey": "skills.nextjs", "url": "https://nextjs.org/" },
+    { "id": "nodejs", "nameKey": "skills.nodejs", "url": "https://nodejs.org/" },
+    { "id": "fastapi", "nameKey": "skills.fastapi", "url": "https://fastapi.tiangolo.com/" },
+    { "id": "tensorflow", "nameKey": "skills.tensorflow", "url": "https://www.tensorflow.org/" },
+    { "id": "pytorch", "nameKey": "skills.pytorch", "url": "https://pytorch.org/" },
+    { "id": "langchain", "nameKey": "skills.langchain", "url": "https://www.langchain.com/" },
+    { "id": "openai", "nameKey": "skills.openai", "url": "https://openai.com/" },
+    { "id": "huggingface", "nameKey": "skills.huggingface", "url": "https://huggingface.co/" },
+    { "id": "mongodb", "nameKey": "skills.mongodb", "url": "https://www.mongodb.com/" },
+    { "id": "tailwind", "nameKey": "skills.tailwind", "url": "https://tailwindcss.com/" },
+    { "id": "opencv", "nameKey": "skills.opencv", "url": "https://opencv.org/" },
+    { "id": "pandas", "nameKey": "skills.pandas", "url": "https://pandas.pydata.org/" }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "home-page": {
+    "tagline": "Building <pixelPerfect>AI</pixelPerfect> that actually works.",
+    "about-heading": "About",
+    "skills-heading": "Skills",
+    "experience-heading": "Professional Experience",
+    "projects-heading": "Projects"
+  },
+  "description-section": {
+    "paragraphs": {
+      "hello": "Hello there!",
+      "craft": "Aspiring AI/ML Engineer with a solid CS foundation and hands-on experience building and deploying ML models. Passionate about applying AI to real-world, scalable solutions.",
+      "learn": "I love working across the stack — from RAG systems and LLMs to computer vision and full-stack web apps. Always picking up new ideas in AI, systems design, and engineering to build things that matter.",
+      "life": "Outside of coding, I enjoy exploring new tech, tinkering with side projects, and finding creative ways to solve problems with software."
+    }
+  },
+  "resume-description": {
+    "headline": "Software Engineer Intern <company>@Watermelon</company>",
+    "location": "Agra, India",
+    "email": "hardikarora483@gmail.com",
+    "linkedin": "linkedin.com/in/hardik-arora-a34143298",
+    "github": "github.com/hardik121121"
+  },
+  "mode-toggle": {
+    "sr-label": "Toggle theme",
+    "options": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "footer": {
+    "made-with": "Made with"
+  },
+  "github-contributions": {
+    "tooltip": "{count, plural, one {{count, number} contribution on {date}} other {{count, number} contributions on {date}}}",
+    "total": "{count, number} contributions in {year} on <link>GitHub</link>.",
+    "graph": {
+      "title": "Contribution Graph",
+      "months": [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ],
+      "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "total-count": "{count, number} contributions in {year}",
+      "legend": {
+        "less": "Less",
+        "more": "More",
+        "level": "{count, plural, one {{count} contribution} other {{count} contributions}}"
+      }
+    }
+  },
+  "resume": {
+    "basics": {
+      "name": "Hardik Arora",
+      "label": "AI/ML Engineer",
+      "summary": "Aspiring AI/ML Engineer with a solid CS foundation and hands-on experience in building and deploying ML models. Passionate about applying AI to real-world, scalable solutions."
+    },
+    "work": {
+      "watermelon": {
+        "name": "Watermelon Software Inc.",
+        "location": "Remote",
+        "position": "Software Engineer Intern",
+        "summary": "Watermelon Software Inc. builds intelligent software solutions.",
+        "end-date": "Present",
+        "highlights": {
+          "rag-system": "Built a production-grade RAG system answering queries across 2,257 pages of documentation using hybrid retrieval (Vector + BM25 + RRF), powered by OpenAI embeddings, Pinecone, Cohere reranking, and Groq LLMs — achieving 72% Precision@10 and 82% MRR.",
+          "slo-copilot": "Built a Conversational SLO Copilot that analyzes service health, alerts, and incidents to answer reliability queries in natural language, enabling engineers to diagnose issues faster and monitor SLO/SLA compliance."
+        }
+      },
+      "materiallab": {
+        "name": "Material Lab",
+        "location": "Remote",
+        "position": "Software Engineer Intern",
+        "summary": "Material Lab is a product studio building AI-powered web applications and client platforms.",
+        "end-date": "09/25",
+        "highlights": {
+          "hendrix": "Engineered features for Hendrix, an AI-powered long-form to short-video generation platform, building audio transcription pipelines using OpenAI Whisper to convert long-form content into trailers, teasers, and social media reels.",
+          "gymbo": "Built and shipped Gymbo, a white-label PWA punch tracker for gym trainers integrating Twilio authentication, OpenClaw APIs, and WhatsApp-assisted workflows.",
+          "landing-pages": "Developed SEO-optimized frontend experiences using GSAP animations; implemented a Facebook GraphQL API + GitHub Actions pipeline to sync events to landing pages, and used Remotion to generate product demo videos programmatically."
+        }
+      },
+      "yantrapragya": {
+        "name": "YantraPragya",
+        "location": "Remote",
+        "position": "AI Engineer Intern",
+        "summary": "YantraPragya builds AI solutions for healthcare and industrial automation.",
+        "end-date": "07/25",
+        "highlights": {
+          "pathology": "Automated extraction of medical parameters (CBC, LFT, etc.) from PDFs using Python, Pandas, NLTK, and Regex, generating structured JSON and Excel outputs for downstream healthcare analytics.",
+          "dental": "Developed a U-Net based deep learning model to detect gum infections and dental issues from clinical images using TensorFlow and OpenCV."
+        }
+      }
+    },
+    "projects": {
+      "attendance": {
+        "name": "Smart Attendance System",
+        "description": "AI-Based Face Recognition App"
+      },
+      "fincai": {
+        "name": "FincAI",
+        "description": "AI-Powered Personal Finance & Investment Assistant"
+      }
+    },
+    "skills": {
+      "python": "Python",
+      "javascript": "JavaScript",
+      "react": "React",
+      "nextjs": "Next.js",
+      "nodejs": "Node.js",
+      "fastapi": "FastAPI",
+      "tensorflow": "TensorFlow",
+      "pytorch": "PyTorch",
+      "langchain": "LangChain",
+      "openai": "OpenAI API",
+      "huggingface": "Hugging Face",
+      "mongodb": "MongoDB",
+      "tailwind": "Tailwind CSS",
+      "opencv": "OpenCV",
+      "pandas": "Pandas"
+    }
+  }
+}
