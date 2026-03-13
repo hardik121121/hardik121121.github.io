@@ -27,7 +27,7 @@ const Home = async () => {
       {chunks}
     </span>
   );
-  const contributions = await getGitHubContributions();
+  const contributions = getGitHubContributions();
 
   return (
     <main className="flex max-w-screen flex-col items-center font-light">
