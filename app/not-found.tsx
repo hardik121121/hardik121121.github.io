@@ -1,4 +1,3 @@
-import { routing } from "@/i18n/routing";
 import Link from "next/link";
 
 export default function NotFound() {
@@ -13,7 +12,7 @@ export default function NotFound() {
       </div>
       <Link
         className="bg-primary text-primary-foreground rounded-full px-4 py-2 text-sm font-medium shadow-sm transition hover:opacity-90"
-        href={`/${routing.defaultLocale}`}
+        href="/"
       >
         Back to homepage
       </Link>
