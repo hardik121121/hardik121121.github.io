@@ -1,5 +1,3 @@
-export const dynamic = "force-static";
-
 import { DescriptionSection } from "@/components/section/description-section";
 import { ProjectSection } from "@/components/section/project-section";
 import { SkillSection } from "@/components/section/skill-section";
