@@ -99,7 +99,8 @@
       "descriptionKey": "projects.attendance.description",
       "logo": "/logo/episo.svg",
       "logoDark": "/logo/episo-dark.svg",
-      "year": "2025"
+      "year": "2025",
+      "url": "https://github.com/hardik121121/Smart-Attendance-Management-System-Project-Ex-AI-wizards"
     },
     {
       "id": "fincai",
@@ -107,7 +108,8 @@
       "descriptionKey": "projects.fincai.description",
       "logo": "/logo/episo.svg",
       "logoDark": "/logo/episo-dark.svg",
-      "year": "2025"
+      "year": "2025",
+      "url": "https://github.com/hardik121121/FincAI---AI-Powered-Personal-Finance-and-Investment-Assistant"
     }
   ],
   "skills": [
