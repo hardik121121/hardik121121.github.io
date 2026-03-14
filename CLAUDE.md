@@ -10,7 +10,7 @@ npm run build    # Production build (static export to out/)
 npm run lint     # Run ESLint (max-warnings 0)
 ```
 
-No test suite is configured. Linting and formatting run automatically on pre-commit via lint-staged (ESLint + Prettier).
+No test suite is configured. Linting and formatting run automatically on pre-commit via lint-staged (ESLint + Prettier). Prettier also auto-organizes imports via `prettier-plugin-organize-imports`.
 
 ## Architecture
 
@@ -32,7 +32,9 @@ next-intl is used for translations only (no URL-based locale routing). Always us
 
 - `components/section/` — major page sections (description, projects, skills, work)
 - `components/ui/` — shadcn/ui primitives (don't edit directly; use `npx shadcn@latest add`)
-- `features/github/` — GitHub contributions graph; fetches from `github-contributions-api.jogruber.de` using `GITHUB_USERNAME` from `features/github/constant.ts`
+- `components/kibo-ui/` — customized kibo-ui contributions graph component (edit directly if needed)
+- `components/navbar/`, `components/footer/` — layout chrome
+- `features/github/` — GitHub contributions graph; fetches from `github-contributions-api.jogruber.de` using `GITHUB_USERNAME` from `features/github/constant.ts`. The fetch result (a Promise) is passed directly to the graph component for React streaming — do not await it in `page.tsx`.
 - `features/resume/` — headline/contact info display
 
 ### Styling
@@ -41,7 +43,7 @@ Tailwind CSS v4 — configuration lives in `app/globals.css` (no `tailwind.confi
 
 ### Adding content
 
-To add a new work experience or project: update `resume.json`, add the corresponding translation keys to `messages/en.json`, then reference the new entry from the relevant section component. Project logos go in `public/logo/`.
+To add a new work experience or project: update `resume.json`, add the corresponding translation keys to `messages/en.json`, then reference the new entry from the relevant section component. Project logos go in `public/logo/`. Each work/project entry requires both `logo` and `logoDark` fields (light and dark mode variants).
 
 ### Deployment
 
