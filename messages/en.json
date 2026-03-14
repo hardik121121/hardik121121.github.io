@@ -30,7 +30,8 @@
     }
   },
   "footer": {
-    "made-with": "Made with"
+    "made-with": "Made with",
+    "by": "by Hardik"
   },
   "github-contributions": {
     "tooltip": "{count, plural, one {{count, number} contribution on {date}} other {{count, number} contributions on {date}}}",
@@ -99,7 +100,7 @@
       },
       "fincai": {
         "name": "FincAI",
-        "description": "AI-Powered Personal Finance & Investment Assistant"
+        "description": "AI-powered finance tracker"
       }
     },
     "skills": {
@@ -113,7 +114,7 @@
       "pytorch": "PyTorch",
       "langchain": "LangChain",
       "openai": "OpenAI API",
-      "huggingface": "Hugging Face",
+"huggingface": "Hugging Face",
       "mongodb": "MongoDB",
       "tailwind": "Tailwind CSS",
       "opencv": "OpenCV",

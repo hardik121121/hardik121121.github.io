@@ -97,8 +97,8 @@
       "id": "attendance",
       "nameKey": "projects.attendance.name",
       "descriptionKey": "projects.attendance.description",
-      "logo": "/logo/episo.svg",
-      "logoDark": "/logo/episo-dark.svg",
+      "logo": "/logo/face.svg",
+      "logoDark": "/logo/face.svg",
       "year": "2025",
       "url": "https://github.com/hardik121121/Smart-Attendance-Management-System-Project-Ex-AI-wizards"
     },
@@ -106,8 +106,8 @@
       "id": "fincai",
       "nameKey": "projects.fincai.name",
       "descriptionKey": "projects.fincai.description",
-      "logo": "/logo/episo.svg",
-      "logoDark": "/logo/episo-dark.svg",
+      "logo": "/logo/money.svg",
+      "logoDark": "/logo/money.svg",
       "year": "2025",
       "url": "https://github.com/hardik121121/FincAI---AI-Powered-Personal-Finance-and-Investment-Assistant"
     }
@@ -122,7 +122,6 @@
     { "id": "tensorflow", "nameKey": "skills.tensorflow", "url": "https://www.tensorflow.org/" },
     { "id": "pytorch", "nameKey": "skills.pytorch", "url": "https://pytorch.org/" },
     { "id": "langchain", "nameKey": "skills.langchain", "url": "https://www.langchain.com/" },
-    { "id": "openai", "nameKey": "skills.openai", "url": "https://openai.com/" },
     { "id": "huggingface", "nameKey": "skills.huggingface", "url": "https://huggingface.co/" },
     { "id": "mongodb", "nameKey": "skills.mongodb", "url": "https://www.mongodb.com/" },
     { "id": "tailwind", "nameKey": "skills.tailwind", "url": "https://tailwindcss.com/" },

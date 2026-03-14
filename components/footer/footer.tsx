@@ -14,6 +14,7 @@ const Footer = async () => {
             <HeartIcon />
           </Icon>
         </span>
+        <p className="text-xs">{t("by")}</p>
       </div>
     </footer>
   );
