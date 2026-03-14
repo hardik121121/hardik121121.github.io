@@ -9,9 +9,9 @@
   "description-section": {
     "paragraphs": {
       "hello": "Hello there!",
-      "craft": "Aspiring AI/ML Engineer with a solid CS foundation and hands-on experience building and deploying ML models. Passionate about applying AI to real-world, scalable solutions.",
-      "learn": "I love working across the stack — from RAG systems and LLMs to computer vision and full-stack web apps. Always picking up new ideas in AI, systems design, and engineering to build things that matter.",
-      "life": "Outside of coding, I enjoy exploring new tech, tinkering with side projects, and finding creative ways to solve problems with software."
+      "craft": "I build AI that ships — RAG systems, LLM agents, CV pipelines. Not just proof-of-concepts, but things that go to production and stay there.",
+      "learn": "Part AI engineer, part SRE, part vibe-coder. I move fast, care about reliability, and get obsessed with turning half-baked ideas into products that drive real revenue.",
+      "life": "The work below speaks for itself — my managers will vouch for the rest! 🫡"
     }
   },
   "resume-description": {
@@ -39,8 +39,18 @@
     "graph": {
       "title": "Contribution Graph",
       "months": [
-        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
       ],
       "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
       "total-count": "{count, number} contributions in {year}",
@@ -114,7 +124,7 @@
       "pytorch": "PyTorch",
       "langchain": "LangChain",
       "openai": "OpenAI API",
-"huggingface": "Hugging Face",
+      "huggingface": "Hugging Face",
       "mongodb": "MongoDB",
       "tailwind": "Tailwind CSS",
       "opencv": "OpenCV",
