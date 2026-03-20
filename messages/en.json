@@ -113,6 +113,160 @@
         "description": "AI-powered finance tracker"
       }
     },
+    "certifications": {
+      "ibm-data-science": {
+        "name": "What is Data Science?",
+        "issuer": "IBM / Coursera"
+      },
+      "tech-navya-2025": {
+        "name": "1st Place – Data Dash",
+        "issuer": "Tech Navya 2025"
+      },
+      "powerbi-workshop": {
+        "name": "Power BI Workshop",
+        "issuer": "OfficeMaster"
+      },
+      "innovate-x-2024": {
+        "name": "Innovate X Hackathon",
+        "issuer": "Shyam Lal College"
+      },
+      "accenture-innovation": {
+        "name": "Accenture Innovator Badge",
+        "issuer": "Accenture Innovation Challenge"
+      },
+      "google-gen-ai": {
+        "name": "Generative AI",
+        "issuer": "Google"
+      },
+      "nptel-mis": {
+        "name": "Management Information System",
+        "issuer": "NPTEL / IIT Kharagpur"
+      },
+      "nptel-ebusiness": {
+        "name": "E-Business",
+        "issuer": "NPTEL / IIT Kharagpur"
+      },
+      "infosys-css3": {
+        "name": "CSS3",
+        "issuer": "Infosys Springboard"
+      },
+      "flipkart-grid-6": {
+        "name": "Flipkart Grid 6.0",
+        "issuer": "Software Development Track"
+      },
+      "coding-blocks-fullstack": {
+        "name": "Full Stack Web Development",
+        "issuer": "Coding Blocks"
+      },
+      "learnyard-dsa": {
+        "name": "Job Ready DSA",
+        "issuer": "LearnYard"
+      },
+      "accenture-data-analytics": {
+        "name": "Data Analytics & Visualization",
+        "issuer": "Accenture / Forage"
+      },
+      "nptel-env-engineering": {
+        "name": "Environmental Engineering",
+        "issuer": "NPTEL / IIT Kharagpur"
+      },
+      "google-play-academy": {
+        "name": "Store Listing Certificate",
+        "issuer": "Google Play Academy"
+      },
+      "ibm-ice-day": {
+        "name": "3rd Prize – Paper Presentation",
+        "issuer": "IBM ICE Day 2K24"
+      },
+      "oasis-star-performer": {
+        "name": "Star Performer",
+        "issuer": "Oasis Infobyte"
+      },
+      "oasis-web-complete": {
+        "name": "Web Development Internship",
+        "issuer": "Oasis Infobyte"
+      },
+      "claude-ai-masterclass": {
+        "name": "Claude AI Masterclass",
+        "issuer": "Skill Nation"
+      },
+      "microsoft-ai-odyssey": {
+        "name": "AI Odyssey Challenge",
+        "issuer": "Microsoft"
+      },
+      "prodigy-lor": {
+        "name": "Letter of Recommendation",
+        "issuer": "Prodigy InfoTech"
+      },
+      "prodigy-ml-complete": {
+        "name": "Machine Learning Internship",
+        "issuer": "Prodigy InfoTech"
+      },
+      "mongodb-certification": {
+        "name": "MongoDB for SQL Experts",
+        "issuer": "MongoDB"
+      },
+      "nodejs-api-masterclass": {
+        "name": "Node.js & API Development",
+        "issuer": "Geekster"
+      },
+      "chatgpt-masterclass": {
+        "name": "ChatGPT & AI Tools Masterclass",
+        "issuer": "Growthyfai Technologies"
+      },
+      "cognifyz-complete": {
+        "name": "Java Developer Internship",
+        "issuer": "Cognifyz Technologies"
+      },
+      "ai-tools-workshop": {
+        "name": "AI Tools Workshop",
+        "issuer": "Be10x"
+      },
+      "oasis-web-start": {
+        "name": "Web Development Intern",
+        "issuer": "Oasis Infobyte"
+      },
+      "prodigy-ml-start": {
+        "name": "Machine Learning Intern",
+        "issuer": "Prodigy InfoTech"
+      },
+      "cognifyz-start": {
+        "name": "Java Development Intern",
+        "issuer": "Cognifyz Technologies"
+      },
+      "bharat-intern-complete": {
+        "name": "Web Development Internship",
+        "issuer": "Bharat Intern"
+      },
+      "oops-java": {
+        "name": "OOPs with Java",
+        "issuer": "Coding Ninjas"
+      },
+      "java-basics": {
+        "name": "Java Basics",
+        "issuer": "Coding Ninjas"
+      },
+      "bharat-intern-start": {
+        "name": "Web Developer Intern",
+        "issuer": "Bharat Intern"
+      },
+      "operations-analyst": {
+        "name": "Operations Analyst",
+        "issuer": "GLA University / Skillcred"
+      },
+      "nptel-ethics": {
+        "name": "Ethics in Engineering",
+        "issuer": "NPTEL / IIT Kharagpur"
+      },
+      "nptel-software-eng": {
+        "name": "Software Engineering",
+        "issuer": "NPTEL / IIT Kharagpur"
+      },
+      "sih-2023": {
+        "name": "SIH Internal Hackathon",
+        "issuer": "GLA University"
+      }
+    },
     "skills": {
       "python": "Python",
       "javascript": "JavaScript",

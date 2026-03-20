@@ -40,10 +40,26 @@
         "work.watermelon.highlights.slo-copilot"
       ],
       "skills": [
-        { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
-        { "id": "langchain", "nameKey": "skills.langchain", "url": "https://www.langchain.com/" },
-        { "id": "openai", "nameKey": "skills.openai", "url": "https://openai.com/" },
-        { "id": "fastapi", "nameKey": "skills.fastapi", "url": "https://fastapi.tiangolo.com/" }
+        {
+          "id": "python",
+          "nameKey": "skills.python",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "langchain",
+          "nameKey": "skills.langchain",
+          "url": "https://www.langchain.com/"
+        },
+        {
+          "id": "openai",
+          "nameKey": "skills.openai",
+          "url": "https://openai.com/"
+        },
+        {
+          "id": "fastapi",
+          "nameKey": "skills.fastapi",
+          "url": "https://fastapi.tiangolo.com/"
+        }
       ]
     },
     {
@@ -63,10 +79,26 @@
         "work.materiallab.highlights.landing-pages"
       ],
       "skills": [
-        { "id": "react", "nameKey": "skills.react", "url": "https://react.dev/" },
-        { "id": "nextjs", "nameKey": "skills.nextjs", "url": "https://nextjs.org/" },
-        { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
-        { "id": "openai", "nameKey": "skills.openai", "url": "https://openai.com/" }
+        {
+          "id": "react",
+          "nameKey": "skills.react",
+          "url": "https://react.dev/"
+        },
+        {
+          "id": "nextjs",
+          "nameKey": "skills.nextjs",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "id": "python",
+          "nameKey": "skills.python",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "openai",
+          "nameKey": "skills.openai",
+          "url": "https://openai.com/"
+        }
       ]
     },
     {
@@ -85,10 +117,26 @@
         "work.yantrapragya.highlights.dental"
       ],
       "skills": [
-        { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
-        { "id": "tensorflow", "nameKey": "skills.tensorflow", "url": "https://www.tensorflow.org/" },
-        { "id": "opencv", "nameKey": "skills.opencv", "url": "https://opencv.org/" },
-        { "id": "pandas", "nameKey": "skills.pandas", "url": "https://pandas.pydata.org/" }
+        {
+          "id": "python",
+          "nameKey": "skills.python",
+          "url": "https://www.python.org/"
+        },
+        {
+          "id": "tensorflow",
+          "nameKey": "skills.tensorflow",
+          "url": "https://www.tensorflow.org/"
+        },
+        {
+          "id": "opencv",
+          "nameKey": "skills.opencv",
+          "url": "https://opencv.org/"
+        },
+        {
+          "id": "pandas",
+          "nameKey": "skills.pandas",
+          "url": "https://pandas.pydata.org/"
+        }
       ]
     }
   ],
@@ -112,20 +160,416 @@
       "url": "https://github.com/hardik121121/FincAI---AI-Powered-Personal-Finance-and-Investment-Assistant"
     }
   ],
+  "certifications": [
+    {
+      "id": "ibm-data-science",
+      "nameKey": "certifications.ibm-data-science.name",
+      "issuerKey": "certifications.ibm-data-science.issuer",
+      "date": "Feb 2025",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_completion-certificate-for-what-is-data-science-activity-7292050872153358338-89Pk?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/ibm-light.svg",
+      "logoDark": "/logo/ibm-dark.svg"
+    },
+    {
+      "id": "tech-navya-2025",
+      "nameKey": "certifications.tech-navya-2025.name",
+      "issuerKey": "certifications.tech-navya-2025.issuer",
+      "date": "Feb 2025",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_1st-winner-datadash-activity-7293623882236735488-XMmH?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/winner.svg",
+      "logoDark": "/logo/winner.svg"
+    },
+    {
+      "id": "powerbi-workshop",
+      "nameKey": "certifications.powerbi-workshop.name",
+      "issuerKey": "certifications.powerbi-workshop.issuer",
+      "date": "Jan 2025",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_powerbi-datavisualization-dashboarddesign-activity-7289493713074954240-OaBC?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/power-bi-icon.svg",
+      "logoDark": "/logo/power-bi-icon.svg"
+    },
+    {
+      "id": "innovate-x-2024",
+      "nameKey": "certifications.innovate-x-2024.name",
+      "issuerKey": "certifications.innovate-x-2024.issuer",
+      "date": "Nov 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_innovatex-hackathon-innovation-activity-7267212944701034497-WoFB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/accenture-light.svg",
+      "logoDark": "/logo/accenture-light.svg"
+    },
+    {
+      "id": "accenture-innovation",
+      "nameKey": "certifications.accenture-innovation.name",
+      "issuerKey": "certifications.accenture-innovation.issuer",
+      "date": "Oct 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_accentureinnovationchallenge-aiwizards-accentureinnovatorbadge-activity-7238913432018731011-dvkN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/accenture-light.svg",
+      "logoDark": "/logo/accenture-light.svg"
+    },
+    {
+      "id": "google-gen-ai",
+      "nameKey": "certifications.google-gen-ai.name",
+      "issuerKey": "certifications.google-gen-ai.issuer",
+      "date": "Oct 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_introtogenai-google-generativemodels-activity-7244991086090186752-nIYw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/google.svg",
+      "logoDark": "/logo/google.svg"
+    },
+    {
+      "id": "nptel-mis",
+      "nameKey": "certifications.nptel-mis.name",
+      "issuerKey": "certifications.nptel-mis.issuer",
+      "date": "Oct 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_swayam-nptel-iitkharagpur-activity-7268503997949313024-MjCt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/certificate.svg",
+      "logoDark": "/logo/certificate.svg"
+    },
+    {
+      "id": "nptel-ebusiness",
+      "nameKey": "certifications.nptel-ebusiness.name",
+      "issuerKey": "certifications.nptel-ebusiness.issuer",
+      "date": "Oct 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_swayam-nptel-iitkharagpur-activity-7268503997949313024-MjCt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/certificate.svg",
+      "logoDark": "/logo/certificate.svg"
+    },
+    {
+      "id": "infosys-css3",
+      "nameKey": "certifications.infosys-css3.name",
+      "issuerKey": "certifications.infosys-css3.issuer",
+      "date": "Sep 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_css3-infosysspringboard-css3-activity-7245011954543575041-h_Lt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/Infosys_logo.svg",
+      "logoDark": "/logo/Infosys_logo.svg"
+    },
+    {
+      "id": "flipkart-grid-6",
+      "nameKey": "certifications.flipkart-grid-6.name",
+      "issuerKey": "certifications.flipkart-grid-6.issuer",
+      "date": "Sep 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_flipkartgrid6-e-achievementunlocked-activity-7234462057717284865-Jmo7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/flipkart-icon.svg",
+      "logoDark": "/logo/flipkart-icon.svg"
+    },
+    {
+      "id": "coding-blocks-fullstack",
+      "nameKey": "certifications.coding-blocks-fullstack.name",
+      "issuerKey": "certifications.coding-blocks-fullstack.issuer",
+      "date": "Jul 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_webdevelopment-fullstack-codingblocks-activity-7222976271427780608-ElxW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/codingblocks.svg",
+      "logoDark": "/logo/codingblocks.svg"
+    },
+    {
+      "id": "learnyard-dsa",
+      "nameKey": "certifications.learnyard-dsa.name",
+      "issuerKey": "certifications.learnyard-dsa.issuer",
+      "date": "Jul 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_datastructures-algorithms-learnyard-activity-7313855048621379584-oHFz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/learnyard.svg",
+      "logoDark": "/logo/learnyard.svg"
+    },
+    {
+      "id": "accenture-data-analytics",
+      "nameKey": "certifications.accenture-data-analytics.name",
+      "issuerKey": "certifications.accenture-data-analytics.issuer",
+      "date": "Jun 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_dataanalyticsandvisualization-virtualinternship-activity-7202617996106735616-iEW5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/accenture-light.svg",
+      "logoDark": "/logo/accenture-light.svg"
+    },
+    {
+      "id": "nptel-env-engineering",
+      "nameKey": "certifications.nptel-env-engineering.name",
+      "issuerKey": "certifications.nptel-env-engineering.issuer",
+      "date": "Apr 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_nptel-nptel-environmentalengineering-activity-7195747066248146945-k1qE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/certificate.svg",
+      "logoDark": "/logo/certificate.svg"
+    },
+    {
+      "id": "google-play-academy",
+      "nameKey": "certifications.google-play-academy.name",
+      "issuerKey": "certifications.google-play-academy.issuer",
+      "date": "Mar 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_google-play-academy-store-listing-certificate-activity-7180554610246393856-fy9n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/google-play.svg",
+      "logoDark": "/logo/google-play.svg"
+    },
+    {
+      "id": "ibm-ice-day",
+      "nameKey": "certifications.ibm-ice-day.name",
+      "issuerKey": "certifications.ibm-ice-day.issuer",
+      "date": "Mar 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_ibmiceday2k24-technicalpaperpresentation-activity-7175704781838012418-Mo4c?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/medal.svg",
+      "logoDark": "/logo/medal.svg"
+    },
+    {
+      "id": "oasis-star-performer",
+      "nameKey": "certifications.oasis-star-performer.name",
+      "issuerKey": "certifications.oasis-star-performer.issuer",
+      "date": "Feb 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_webdevelopment-webdevelopment-internship-activity-7163455827394187266-y3zE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "oasis-web-complete",
+      "nameKey": "certifications.oasis-web-complete.name",
+      "issuerKey": "certifications.oasis-web-complete.issuer",
+      "date": "Feb 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_webdevelopment-webdevelopment-internship-activity-7163455827394187266-y3zE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "claude-ai-masterclass",
+      "nameKey": "certifications.claude-ai-masterclass.name",
+      "issuerKey": "certifications.claude-ai-masterclass.issuer",
+      "date": "Feb 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_claudeai-skillnation-aiinnovation-activity-7162426865079582720-GKfq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/claude.svg",
+      "logoDark": "/logo/claude.svg"
+    },
+    {
+      "id": "microsoft-ai-odyssey",
+      "nameKey": "certifications.microsoft-ai-odyssey.name",
+      "issuerKey": "certifications.microsoft-ai-odyssey.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_aiodyssey-level1-aiodysseychallenge-activity-7159808345288142848-PCnO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/microsoft.svg",
+      "logoDark": "/logo/microsoft.svg"
+    },
+    {
+      "id": "prodigy-lor",
+      "nameKey": "certifications.prodigy-lor.name",
+      "issuerKey": "certifications.prodigy-lor.issuer",
+      "date": "Feb 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_certificateofcompletion-letterofrecommendation-activity-7158926711428927488-fTgt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "prodigy-ml-complete",
+      "nameKey": "certifications.prodigy-ml-complete.name",
+      "issuerKey": "certifications.prodigy-ml-complete.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_certificateofcompletion-letterofrecommendation-activity-7158926711428927488-fTgt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "mongodb-certification",
+      "nameKey": "certifications.mongodb-certification.name",
+      "issuerKey": "certifications.mongodb-certification.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_mongodb-mongodb-sqlexperts-activity-7158494541921091584-7JZp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/MongoDB.svg",
+      "logoDark": "/logo/MongoDB.svg"
+    },
+    {
+      "id": "nodejs-api-masterclass",
+      "nameKey": "certifications.nodejs-api-masterclass.name",
+      "issuerKey": "certifications.nodejs-api-masterclass.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_nodejs-apidevelopment-geekstermasterclass-activity-7157424474730950656-fOrR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/nodejs.svg",
+      "logoDark": "/logo/nodejs.svg"
+    },
+    {
+      "id": "chatgpt-masterclass",
+      "nameKey": "certifications.chatgpt-masterclass.name",
+      "issuerKey": "certifications.chatgpt-masterclass.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_chatgpt-artificialintelligence-aiinnovation-activity-7155787984326348800-tR23?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/ChatGPT-Light.svg",
+      "logoDark": "/logo/ChatGPT_Dark.svg"
+    },
+    {
+      "id": "cognifyz-complete",
+      "nameKey": "certifications.cognifyz-complete.name",
+      "issuerKey": "certifications.cognifyz-complete.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_javadeveloper-internshipcomplete-careermilestone-activity-7155452175358291968-GwPj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "ai-tools-workshop",
+      "nameKey": "certifications.ai-tools-workshop.name",
+      "issuerKey": "certifications.ai-tools-workshop.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_aitools-professionaldevelopment-aiworkshop-activity-7153291508568244224-UlXb/?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/artificial-intelligence.svg",
+      "logoDark": "/logo/artificial-intelligence.svg"
+    },
+    {
+      "id": "oasis-web-start",
+      "nameKey": "certifications.oasis-web-start.name",
+      "issuerKey": "certifications.oasis-web-start.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_internship-webdevelopment-designing-activity-7152905488475541504-bqdw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "prodigy-ml-start",
+      "nameKey": "certifications.prodigy-ml-start.name",
+      "issuerKey": "certifications.prodigy-ml-start.issuer",
+      "date": "Jan 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_machinelearning-internship-prodigyinfotech-activity-7148555741144989696-i6JK/?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "cognifyz-start",
+      "nameKey": "certifications.cognifyz-start.name",
+      "issuerKey": "certifications.cognifyz-start.issuer",
+      "date": "Dec 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_newopportunity-javadevelopmentinternship-activity-7146510543376297984-VSY6/?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "bharat-intern-complete",
+      "nameKey": "certifications.bharat-intern-complete.name",
+      "issuerKey": "certifications.bharat-intern-complete.issuer",
+      "date": "Dec 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_webdevelopment-internshipcomplete-bharatintern-activity-7143948870685765632-5zSQ/?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "oops-java",
+      "nameKey": "certifications.oops-java.name",
+      "issuerKey": "certifications.oops-java.issuer",
+      "date": "Dec 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_guided-paths-at-coding-ninjas-studio-activity-7145817122881830912-x7Yw/?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/java-vertical.svg",
+      "logoDark": "/logo/java-vertical.svg"
+    },
+    {
+      "id": "java-basics",
+      "nameKey": "certifications.java-basics.name",
+      "issuerKey": "certifications.java-basics.issuer",
+      "date": "Nov 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_guided-paths-at-coding-ninjas-studio-activity-7139507140817317888-yJQ7/?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/java-vertical.svg",
+      "logoDark": "/logo/java-vertical.svg"
+    },
+    {
+      "id": "bharat-intern-start",
+      "nameKey": "certifications.bharat-intern-start.name",
+      "issuerKey": "certifications.bharat-intern-start.issuer",
+      "date": "Nov 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_connections-internshipopportunity-virtualinternship-activity-7126586633734303746-bdGJ?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "operations-analyst",
+      "nameKey": "certifications.operations-analyst.name",
+      "issuerKey": "certifications.operations-analyst.issuer",
+      "date": "Nov 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_micro-experience-certificate-activity-7131652852984217601-MLxn?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/internship.svg",
+      "logoDark": "/logo/internship.svg"
+    },
+    {
+      "id": "nptel-ethics",
+      "nameKey": "certifications.nptel-ethics.name",
+      "issuerKey": "certifications.nptel-ethics.issuer",
+      "date": "Oct 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_swayam-iitkharagpur-ethics-activity-7136605044904239106-iUPd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/certificate.svg",
+      "logoDark": "/logo/certificate.svg"
+    },
+    {
+      "id": "nptel-software-eng",
+      "nameKey": "certifications.nptel-software-eng.name",
+      "issuerKey": "certifications.nptel-software-eng.issuer",
+      "date": "Oct 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_swayam-iitkharagpur-ethics-activity-7136605044904239106-iUPd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/certificate.svg",
+      "logoDark": "/logo/certificate.svg"
+    },
+    {
+      "id": "sih-2023",
+      "nameKey": "certifications.sih-2023.name",
+      "issuerKey": "certifications.sih-2023.issuer",
+      "date": "Sep 2023",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_had-an-amazing-experience-in-an-internal-activity-7125469615211565056-ewOE?utm_source=share&utm_medium=member_android&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/sih.svg",
+      "logoDark": "/logo/sih.svg"
+    }
+  ],
   "skills": [
-    { "id": "python", "nameKey": "skills.python", "url": "https://www.python.org/" },
-    { "id": "javascript", "nameKey": "skills.javascript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    {
+      "id": "python",
+      "nameKey": "skills.python",
+      "url": "https://www.python.org/"
+    },
+    {
+      "id": "javascript",
+      "nameKey": "skills.javascript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
     { "id": "react", "nameKey": "skills.react", "url": "https://react.dev/" },
-    { "id": "nextjs", "nameKey": "skills.nextjs", "url": "https://nextjs.org/" },
-    { "id": "nodejs", "nameKey": "skills.nodejs", "url": "https://nodejs.org/" },
-    { "id": "fastapi", "nameKey": "skills.fastapi", "url": "https://fastapi.tiangolo.com/" },
-    { "id": "tensorflow", "nameKey": "skills.tensorflow", "url": "https://www.tensorflow.org/" },
-    { "id": "pytorch", "nameKey": "skills.pytorch", "url": "https://pytorch.org/" },
-    { "id": "langchain", "nameKey": "skills.langchain", "url": "https://www.langchain.com/" },
-    { "id": "huggingface", "nameKey": "skills.huggingface", "url": "https://huggingface.co/" },
-    { "id": "mongodb", "nameKey": "skills.mongodb", "url": "https://www.mongodb.com/" },
-    { "id": "tailwind", "nameKey": "skills.tailwind", "url": "https://tailwindcss.com/" },
-    { "id": "opencv", "nameKey": "skills.opencv", "url": "https://opencv.org/" },
-    { "id": "pandas", "nameKey": "skills.pandas", "url": "https://pandas.pydata.org/" }
+    {
+      "id": "nextjs",
+      "nameKey": "skills.nextjs",
+      "url": "https://nextjs.org/"
+    },
+    {
+      "id": "nodejs",
+      "nameKey": "skills.nodejs",
+      "url": "https://nodejs.org/"
+    },
+    {
+      "id": "fastapi",
+      "nameKey": "skills.fastapi",
+      "url": "https://fastapi.tiangolo.com/"
+    },
+    {
+      "id": "tensorflow",
+      "nameKey": "skills.tensorflow",
+      "url": "https://www.tensorflow.org/"
+    },
+    {
+      "id": "pytorch",
+      "nameKey": "skills.pytorch",
+      "url": "https://pytorch.org/"
+    },
+    {
+      "id": "langchain",
+      "nameKey": "skills.langchain",
+      "url": "https://www.langchain.com/"
+    },
+    {
+      "id": "huggingface",
+      "nameKey": "skills.huggingface",
+      "url": "https://huggingface.co/"
+    },
+    {
+      "id": "mongodb",
+      "nameKey": "skills.mongodb",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "id": "tailwind",
+      "nameKey": "skills.tailwind",
+      "url": "https://tailwindcss.com/"
+    },
+    {
+      "id": "opencv",
+      "nameKey": "skills.opencv",
+      "url": "https://opencv.org/"
+    },
+    {
+      "id": "pandas",
+      "nameKey": "skills.pandas",
+      "url": "https://pandas.pydata.org/"
+    }
   ]
 }

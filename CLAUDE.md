@@ -12,17 +12,19 @@ npm run lint     # Run ESLint (max-warnings 0)
 
 No test suite is configured. Linting and formatting run automatically on pre-commit via lint-staged (ESLint + Prettier). Prettier also auto-organizes imports via `prettier-plugin-organize-imports`.
 
+**Node/npm requirement:** This project uses Node 25 / npm 11 locally. The `package-lock.json` is generated with npm 11 — always use `npm install` (not `yarn` or `pnpm`) to keep the lock file in sync. CI is configured to use npm 11 as well.
+
 ## Architecture
 
-**Next.js 16 App Router** portfolio site with static export (`output: "export"`), deployed to GitHub Pages at `hardikarora.me`.
+**Next.js 16 App Router** portfolio site with static export (`output: "export"`, `images.unoptimized: true`), deployed to GitHub Pages at `hardikarora.me`.
 
 ### Routing
 
-Single-page site — `app/page.tsx` is the only route. No dynamic routing, no middleware. The site builds to `out/index.html`.
+Two routes: `app/page.tsx` (home) and `app/certifications/page.tsx` (certifications). No dynamic routing, no middleware. The site builds to `out/`.
 
 ### i18n
 
-next-intl is used for translations only (no URL-based locale routing). Always uses `en`. `i18n/request.ts` hardcodes `en` and loads from `messages/en.json` + `messages/en/common.json`. Use `getTranslations()` in server components and `useTranslations()` in client components.
+next-intl is used for translations only (no URL-based locale routing). Always uses `en`. `i18n/request.ts` hardcodes `en` and merges `messages/en/common.json` then `messages/en.json` — keys in `en.json` override same-named keys in `common.json`. Use `getTranslations()` in server components and `useTranslations()` in client components.
 
 ### Data flow
 
@@ -44,6 +46,8 @@ Tailwind CSS v4 — configuration lives in `app/globals.css` (no `tailwind.confi
 ### Adding content
 
 To add a new work experience or project: update `resume.json`, add the corresponding translation keys to `messages/en.json`, then reference the new entry from the relevant section component. Project logos go in `public/logo/`. Each work/project entry requires both `logo` and `logoDark` fields (light and dark mode variants).
+
+To add a certification: add an entry to the `certifications` array in `resume.json` (fields: `id`, `nameKey`, `issuerKey`, `date`, `url`, `logo`, `logoDark`), add the name/issuer strings under `resume.certifications` in `messages/en.json`, and place the logo in `public/logo/`.
 
 ### Deployment
 
