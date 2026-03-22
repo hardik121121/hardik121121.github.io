@@ -20,23 +20,50 @@ No test suite is configured. Linting and formatting run automatically on pre-com
 
 ### Routing
 
-Two routes: `app/page.tsx` (home) and `app/certifications/page.tsx` (certifications). No dynamic routing, no middleware. The site builds to `out/`.
+Six routes, all statically pre-rendered:
+
+| Route             | File                          |
+| ----------------- | ----------------------------- |
+| `/`               | `app/page.tsx`                |
+| `/certifications` | `app/certifications/page.tsx` |
+| `/contact`        | `app/contact/page.tsx`        |
+| `/projects`       | `app/projects/page.tsx`       |
+| `/blog`           | `app/blog/page.tsx`           |
+| `/_not-found`     | `app/not-found.tsx`           |
+
+No dynamic routing, no middleware. The site builds to `out/`.
 
 ### i18n
 
-next-intl is used for translations only (no URL-based locale routing). Always uses `en`. `i18n/request.ts` hardcodes `en` and merges `messages/en/common.json` then `messages/en.json` — keys in `en.json` override same-named keys in `common.json`. Use `getTranslations()` in server components and `useTranslations()` in client components.
+next-intl is used for translations only (no URL-based locale routing). Always uses `en`. `i18n/request.ts` hardcodes `en` and merges `messages/en/common.json` (shared UI strings under the `common` namespace) then `messages/en.json` (all content namespaces) — keys in `en.json` override same-named keys in `common.json`. Use `getTranslations()` in server components and `useTranslations()` in client components.
 
 ### Data flow
 
-`resume.json` is the single source of truth for portfolio content (work experience, projects, skills). It uses `messageKey` fields (e.g., `work.watermelon.name`) that map to translation strings in `messages/en.json`. The main page (`app/page.tsx`) composes section components that read from this file.
+`resume.json` is the single source of truth for all portfolio content. Top-level keys:
+
+- `basics` — name, email, location, social media links (LinkedIn, GitHub, Medium, Daily.dev, X, Reddit, Discord, WhatsApp)
+- `work` — work experience entries with highlights and skills
+- `projects` — all projects; each has a `featured` boolean. The home page "Major Projects" section shows only `featured: true` entries; `/projects` shows all 59
+- `certifications` — 38 certification entries
+- `achievements` — award/competition entries shown on the home page
+- `skills` — skill entries shown in the skills section
+
+Entries use `messageKey` fields (e.g., `work.watermelon.name`) that map to translation strings in `messages/en.json`.
 
 ### Component structure
 
-- `components/section/` — major page sections (description, projects, skills, work)
+- `components/section/` — major page sections:
+  - `description-section.tsx` — about paragraphs (client, uses `useTranslations`)
+  - `skill-section.tsx` — skills grid with simple-icons SVGs (client)
+  - `achievement-section.tsx` — achievements list (server)
+  - `project-section.tsx` — featured projects list (client); filters `project.featured === true`
+  - `work/` — work experience accordion (client)
 - `components/ui/` — shadcn/ui primitives (don't edit directly; use `npx shadcn@latest add`)
 - `components/kibo-ui/` — customized kibo-ui contributions graph component (edit directly if needed)
-- `components/navbar/`, `components/footer/` — layout chrome
-- `features/github/` — GitHub contributions graph; fetches from `github-contributions-api.jogruber.de` using `GITHUB_USERNAME` from `features/github/constant.ts`. The fetch result (a Promise) is passed directly to the graph component for React streaming — do not await it in `page.tsx`.
+- `components/navbar/` — site navbar with links to all pages; ghost button style on hover
+- `components/footer/` — footer with nav links, social icons (GitHub, LinkedIn, X), copyright
+- `components/theme/` — dark/light/system theme toggle
+- `features/github/` — GitHub contributions graph; fetches from `github-contributions-api.jogruber.de` using `GITHUB_USERNAME` from `features/github/constant.ts`. `getGitHubContributions()` is async but called _without_ `await` in `page.tsx`, so it returns `Promise<Activity[]>`. The client component unwraps it with React 19's `use()` hook for streaming — do not await it in `page.tsx`. The fetch is wrapped in try/catch returning `[]` on failure so the build succeeds when the API is unreachable. The graph is wrapped in `<Suspense>` with `GitHubContributionFallback`.
 - `features/resume/` — headline/contact info display
 
 ### Styling
@@ -45,9 +72,15 @@ Tailwind CSS v4 — configuration lives in `app/globals.css` (no `tailwind.confi
 
 ### Adding content
 
-To add a new work experience or project: update `resume.json`, add the corresponding translation keys to `messages/en.json`, then reference the new entry from the relevant section component. Project logos go in `public/logo/`. Each work/project entry requires both `logo` and `logoDark` fields (light and dark mode variants).
+**Work experience or skills:** update `resume.json`, add translation keys to `messages/en.json`, reference from the relevant section component. Project logos go in `public/logo/`. Each entry requires both `logo` and `logoDark` fields.
 
-To add a certification: add an entry to the `certifications` array in `resume.json` (fields: `id`, `nameKey`, `issuerKey`, `date`, `url`, `logo`, `logoDark`), add the name/issuer strings under `resume.certifications` in `messages/en.json`, and place the logo in `public/logo/`.
+**Project:** add an entry to `resume.json` `projects` array with `"featured": true` to show on the home page or `"featured": false` for the `/projects` page only. Add name/description strings under `resume.projects` in `messages/en.json`.
+
+**Certification:** add to `certifications` array in `resume.json` (fields: `id`, `nameKey`, `issuerKey`, `date`, `url`, `logo`, `logoDark`), add name/issuer strings under `resume.certifications` in `messages/en.json`, place logo in `public/logo/`.
+
+**Achievement:** add to `achievements` array in `resume.json` (fields: `id`, `titleKey`, `descriptionKey`, `date`, `url`, `logo`, `logoDark`), add title/description strings under `resume.achievements` in `messages/en.json`.
+
+**Social media link:** add to `basics.socialMedia` in `resume.json` with `url`, `handle`, `logo`, `logoDark`. Used in the contact page and footer.
 
 ### Deployment
 

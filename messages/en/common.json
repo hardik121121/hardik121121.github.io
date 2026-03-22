@@ -1,6 +1,9 @@
 {
   "common": {
     "portfolio": "portfolio",
-    "certifications": "Certifications"
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "projects": "Projects",
+    "blog": "Blog"
   }
 }

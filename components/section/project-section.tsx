@@ -1,14 +1,14 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import Link from "next/link";
 import resume from "@/resume.json";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
+import Link from "next/link";
 
 export const ProjectSection = () => {
   const t = useTranslations("resume");
-  const { projects } = resume;
+  const projects = resume.projects.filter((p) => p.featured);
 
   return projects.map((project) => {
     const ProjectContent = (
@@ -38,9 +38,9 @@ export const ProjectSection = () => {
             <h3 className="leading-6 group-hover:underline">
               {t(project.nameKey)}
             </h3>
-            <p className="text-xs text-muted-foreground">{project.year}</p>
+            <p className="text-muted-foreground text-xs">{project.year}</p>
           </div>
-          <p className="text-xs font-light text-muted-foreground">
+          <p className="text-muted-foreground text-xs font-light">
             {t(project.descriptionKey)}
           </p>
         </div>

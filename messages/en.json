@@ -1,17 +1,43 @@
 {
+  "contact-page": {
+    "heading": "Contact",
+    "subheading": "Open to opportunities, collaborations, or just a chat — reach out through any of these.",
+    "email": {
+      "label": "Email"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/hardik-arora-a34143298"
+    },
+    "github": {
+      "label": "GitHub",
+      "value": "github.com/hardik121121"
+    },
+    "location": {
+      "label": "Location"
+    },
+    "other-socials-heading": "Other Socials",
+    "medium": { "label": "Medium" },
+    "dailydev": { "label": "daily.dev" },
+    "x": { "label": "X (Twitter)" },
+    "reddit": { "label": "Reddit" },
+    "discord": { "label": "Discord" },
+    "whatsapp": { "label": "WhatsApp" }
+  },
   "home-page": {
     "tagline": "Building <pixelPerfect>AI</pixelPerfect> that actually works.",
     "about-heading": "About",
     "skills-heading": "Skills",
     "experience-heading": "Professional Experience",
-    "projects-heading": "Projects"
+    "projects-heading": "Major Projects",
+    "achievements-heading": "Achievements"
   },
   "description-section": {
     "paragraphs": {
       "hello": "Hello there!",
       "craft": "I build AI that ships — RAG systems, LLM agents, CV pipelines. Not just proof-of-concepts, but things that go to production and stay there.",
       "learn": "Part AI engineer, part SRE, part vibe-coder. I move fast, care about reliability, and get obsessed with turning half-baked ideas into products that drive real revenue.",
-      "life": "The work below speaks for itself — my managers will vouch for the rest! 🫡"
+      "life": "My work speaks for itself — my managers will vouch for the rest! 🫡"
     }
   },
   "resume-description": {
@@ -31,7 +57,10 @@
   },
   "footer": {
     "made-with": "Made with",
-    "by": "by Hardik"
+    "by": "by Hardik Arora",
+    "copyright": "© 2026 Hardik Arora",
+    "nav-heading": "Navigate",
+    "connect-heading": "Connect"
   },
   "github-contributions": {
     "tooltip": "{count, plural, one {{count, number} contribution on {date}} other {{count, number} contributions on {date}}}",
@@ -111,6 +140,234 @@
       "fincai": {
         "name": "FincAI",
         "description": "AI-powered finance tracker"
+      },
+      "quizify": {
+        "name": "Quizify",
+        "description": "MERN Based Quiz WebApp"
+      },
+      "pinterest-clone": {
+        "name": "Image Preview Gallery",
+        "description": "Pinterest Clone"
+      },
+      "auth-wave-notify": {
+        "name": "Auth-Wave-Notify",
+        "description": "JWT Authentication FullStack App"
+      },
+      "huddle-web": {
+        "name": "Huddle",
+        "description": "Frontend Web Design"
+      },
+      "netflix-clone": {
+        "name": "Netflix Homepage Clone",
+        "description": "Frontend Clone"
+      },
+      "portfolio-landing": {
+        "name": "Personal Portfolio Landing Page",
+        "description": "Frontend Web Design"
+      },
+      "tv-show-summarizer": {
+        "name": "TV Show Summarizer",
+        "description": "Web App"
+      },
+      "emoji-search": {
+        "name": "Emoji Search Website",
+        "description": "Web App"
+      },
+      "cart-info": {
+        "name": "Cart Info Preview",
+        "description": "Web App"
+      },
+      "food-recipe": {
+        "name": "Food Recipe Preview",
+        "description": "Web App"
+      },
+      "meme-search": {
+        "name": "Meme Search Webpage",
+        "description": "Web App"
+      },
+      "todo-webapp": {
+        "name": "To-Do WebApp",
+        "description": "Web App"
+      },
+      "tribute-page": {
+        "name": "Tribute Page",
+        "description": "Frontend Web Design"
+      },
+      "calculator": {
+        "name": "Calculator",
+        "description": "Web App"
+      },
+      "tic-tac-toe": {
+        "name": "Tic Tac Toe Game",
+        "description": "Web App"
+      },
+      "rock-paper-scissors": {
+        "name": "Rock Paper Scissors Game",
+        "description": "Web App"
+      },
+      "travel-webpage": {
+        "name": "Travel Webpage",
+        "description": "Frontend Web Design"
+      },
+      "typing-game": {
+        "name": "Typing Game Challenge",
+        "description": "Web App"
+      },
+      "temperature-converter": {
+        "name": "Temperature Converter Webpage",
+        "description": "Web App"
+      },
+      "insurai": {
+        "name": "InsurAI",
+        "description": "LLM & Agentic AI Insurance Product"
+      },
+      "edtech-chatbot": {
+        "name": "EdTech Chatbot",
+        "description": "Chatbot Using Groq API"
+      },
+      "intellidocs": {
+        "name": "IntelliDocs AI",
+        "description": "Chat with PDFs using RAG, DeepSeek & Ollama"
+      },
+      "code-companion": {
+        "name": "Code Companion",
+        "description": "AI Code Assistant using DeepSeek"
+      },
+      "customer-churn": {
+        "name": "Customer Churn Prediction",
+        "description": "Machine Learning"
+      },
+      "movie-review-lstm": {
+        "name": "Movie Review Predictions",
+        "description": "Sentiment Analysis using LSTM"
+      },
+      "wine-quality": {
+        "name": "Red Wine Quality Prediction",
+        "description": "Random Forest Classifier"
+      },
+      "heart-disease": {
+        "name": "Heart Disease Detection System",
+        "description": "Logistic Regression"
+      },
+      "movie-recommendation": {
+        "name": "Movie Recommendation System",
+        "description": "Jaccard & Cosine Similarity"
+      },
+      "fake-news": {
+        "name": "Fake News Detection",
+        "description": "Machine Learning"
+      },
+      "pima-diabetes": {
+        "name": "PIMA Diabetes Dataset EDA",
+        "description": "Exploratory Data Analysis"
+      },
+      "stock-knn": {
+        "name": "Stock Price Prediction",
+        "description": "K-Nearest Neighbors Classifier"
+      },
+      "twitter-sentiment": {
+        "name": "Twitter Sentiment Analysis",
+        "description": "Logistic Regression"
+      },
+      "stock-trend-lstm": {
+        "name": "Stock Trend Prediction",
+        "description": "Stacked LSTM Model"
+      },
+      "house-price": {
+        "name": "Advanced House Price Prediction",
+        "description": "Linear Regression"
+      },
+      "food-calories": {
+        "name": "Food Calories Estimation",
+        "description": "Machine Learning"
+      },
+      "mall-segmentation": {
+        "name": "Mall Customer Segmentation",
+        "description": "Machine Learning"
+      },
+      "hand-gesture": {
+        "name": "Hand Gesture Recognition",
+        "description": "CNN Classifier"
+      },
+      "cat-vs-dog": {
+        "name": "Cat vs Dog Image Classifier",
+        "description": "Support Vector Machine"
+      },
+      "aido-assistant": {
+        "name": "Aido - AI Desktop Assistant",
+        "description": "Python & Tkinter"
+      },
+      "django-auth": {
+        "name": "Login & Auth System",
+        "description": "Django & Nodemailer"
+      },
+      "whatsapp-automation": {
+        "name": "WhatsApp Messaging Automation",
+        "description": "Pywhatkit Module"
+      },
+      "face-detection": {
+        "name": "Face Detection",
+        "description": "OpenCV & Haar-Cascade Classifier"
+      },
+      "encryption-tool": {
+        "name": "Encryption Decryption Tool",
+        "description": "Cryptography & AES Techniques"
+      },
+      "video-audio-extractor": {
+        "name": "Video to Audio Extractor",
+        "description": "Python Tool"
+      },
+      "gun-detection": {
+        "name": "Gun Detection",
+        "description": "OpenCV & Haar Cascade"
+      },
+      "snake-game": {
+        "name": "Snake Game",
+        "description": "Pygame Module"
+      },
+      "notepad-tkinter": {
+        "name": "Notepad",
+        "description": "GUI & Tkinter"
+      },
+      "gui-calendar": {
+        "name": "GUI Calendar Application",
+        "description": "Python & Tkinter"
+      },
+      "digital-clock": {
+        "name": "Digital Clock",
+        "description": "Time Module & Tkinter"
+      },
+      "password-generator": {
+        "name": "Django Random Password Generator",
+        "description": "Python Django"
+      },
+      "plagiarism-detector": {
+        "name": "Plagiarism Detector",
+        "description": "Python Tool"
+      },
+      "amazon-sales-dashboard": {
+        "name": "Amazon Sales Dashboard",
+        "description": "Power BI & Microsoft Excel"
+      },
+      "social-buzz-accenture": {
+        "name": "Social Buzz — Accenture",
+        "description": "Data Analytics Job Simulation"
+      },
+      "seismicsense-ai": {
+        "name": "SeismicSense AI",
+        "description": "Seismic Classification & Prediction Dashboard"
+      },
+      "ecommerce-analytics": {
+        "name": "E-Commerce Sales Analytics",
+        "description": "Data Cleaning with Microsoft Excel"
+      },
+      "streaming-data-precision": {
+        "name": "Data Precision in Streaming Platform",
+        "description": "Data Cleaning with Microsoft Excel"
+      },
+      "voice-alchemy-paper": {
+        "name": "Voice Alchemy — Technical Paper",
+        "description": "AI Generated Voices Research"
       }
     },
     "certifications": {
@@ -265,6 +522,16 @@
       "sih-2023": {
         "name": "SIH Internal Hackathon",
         "issuer": "GLA University"
+      }
+    },
+    "achievements": {
+      "data-dash-2025": {
+        "title": "Data Dash - Tech Navya 2025",
+        "description": "Built a Power BI-based Amazon Sales Dashboard with real-time analytics, inventory forecasting, and shipment tracking."
+      },
+      "ibm-ice-day-2024": {
+        "title": "Technical Paper Presentation - IBM ICE Day 2024",
+        "description": "Secured Bronze Medal for presenting Voice Alchemy by AI, exploring AI-driven voice generation."
       }
     },
     "skills": {

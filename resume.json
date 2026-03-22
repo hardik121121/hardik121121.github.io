@@ -20,6 +20,42 @@
       },
       "github": {
         "url": "https://github.com/hardik121121"
+      },
+      "medium": {
+        "url": "https://medium.com/@hardikarora483",
+        "handle": "@hardikarora483",
+        "logo": "/logo/medium.svg",
+        "logoDark": "/logo/medium-dark.svg"
+      },
+      "dailydev": {
+        "url": "https://app.daily.dev/hardikarora",
+        "handle": "@hardikarora",
+        "logo": "/logo/dailydev.svg",
+        "logoDark": "/logo/dailydev-dark.svg"
+      },
+      "x": {
+        "url": "https://x.com/HardikArora121",
+        "handle": "@HardikArora121",
+        "logo": "/logo/x.svg",
+        "logoDark": "/logo/x-dark.svg"
+      },
+      "reddit": {
+        "url": "https://www.reddit.com/user/StrawberryNeither693/",
+        "handle": "u/StrawberryNeither693",
+        "logo": "/logo/reddit.svg",
+        "logoDark": "/logo/reddit-dark.svg"
+      },
+      "discord": {
+        "url": null,
+        "handle": "hardik121_",
+        "logo": "/logo/discord.svg",
+        "logoDark": "/logo/discord-dark.svg"
+      },
+      "whatsapp": {
+        "url": "https://wa.me/919997859116",
+        "handle": "+91 9997859116",
+        "logo": "/logo/whatsapp.svg",
+        "logoDark": "/logo/whatsapp-dark.svg"
       }
     }
   },
@@ -148,7 +184,8 @@
       "logo": "/logo/face.svg",
       "logoDark": "/logo/face.svg",
       "year": "2025",
-      "url": "https://github.com/hardik121121/Smart-Attendance-Management-System-Project-Ex-AI-wizards"
+      "url": "https://github.com/hardik121121/Smart-Attendance-Management-System-Project-Ex-AI-wizards",
+      "featured": true
     },
     {
       "id": "fincai",
@@ -157,7 +194,578 @@
       "logo": "/logo/money.svg",
       "logoDark": "/logo/money.svg",
       "year": "2025",
-      "url": "https://github.com/hardik121121/FincAI---AI-Powered-Personal-Finance-and-Investment-Assistant"
+      "url": "https://github.com/hardik121121/FincAI---AI-Powered-Personal-Finance-and-Investment-Assistant",
+      "featured": true
+    },
+    {
+      "id": "quizify",
+      "nameKey": "projects.quizify.name",
+      "descriptionKey": "projects.quizify.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/JOVAC_FullStack_Project2024_Quizfy",
+      "featured": false
+    },
+    {
+      "id": "pinterest-clone",
+      "nameKey": "projects.pinterest-clone.name",
+      "descriptionKey": "projects.pinterest-clone.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/FullStack-TBPP-TASKS-Group34",
+      "featured": false
+    },
+    {
+      "id": "auth-wave-notify",
+      "nameKey": "projects.auth-wave-notify.name",
+      "descriptionKey": "projects.auth-wave-notify.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2025",
+      "url": "https://auth-wave-notify.lovable.app/",
+      "featured": false
+    },
+    {
+      "id": "huddle-web",
+      "nameKey": "projects.huddle-web.name",
+      "descriptionKey": "projects.huddle-web.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/huddle-website-frontend",
+      "featured": false
+    },
+    {
+      "id": "netflix-clone",
+      "nameKey": "projects.netflix-clone.name",
+      "descriptionKey": "projects.netflix-clone.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/BHARAT-INTERN-TASKS/tree/main/netflix-homepage-clone",
+      "featured": false
+    },
+    {
+      "id": "portfolio-landing",
+      "nameKey": "projects.portfolio-landing.name",
+      "descriptionKey": "projects.portfolio-landing.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/BHARAT-INTERN-TASKS/tree/main/portfolio",
+      "featured": false
+    },
+    {
+      "id": "tv-show-summarizer",
+      "nameKey": "projects.tv-show-summarizer.name",
+      "descriptionKey": "projects.tv-show-summarizer.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Tv-Show-Summarizer",
+      "featured": false
+    },
+    {
+      "id": "emoji-search",
+      "nameKey": "projects.emoji-search.name",
+      "descriptionKey": "projects.emoji-search.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Emoji-Search-Webpage",
+      "featured": false
+    },
+    {
+      "id": "cart-info",
+      "nameKey": "projects.cart-info.name",
+      "descriptionKey": "projects.cart-info.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Cart-info-html-css-js-",
+      "featured": false
+    },
+    {
+      "id": "food-recipe",
+      "nameKey": "projects.food-recipe.name",
+      "descriptionKey": "projects.food-recipe.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Food-Recipe-Preview",
+      "featured": false
+    },
+    {
+      "id": "meme-search",
+      "nameKey": "projects.meme-search.name",
+      "descriptionKey": "projects.meme-search.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Meme-Search-Webpage",
+      "featured": false
+    },
+    {
+      "id": "todo-webapp",
+      "nameKey": "projects.todo-webapp.name",
+      "descriptionKey": "projects.todo-webapp.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/OIBSIP_WebDevelopment_VirtualInternshipTasks/tree/main/LEVEL2%20-%20TASK%203-ToDoWebApp",
+      "featured": false
+    },
+    {
+      "id": "tribute-page",
+      "nameKey": "projects.tribute-page.name",
+      "descriptionKey": "projects.tribute-page.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/OIBSIP_WebDevelopment_VirtualInternshipTasks/tree/main/LEVEL%202%20-%20TASK%202-Tribute%20Page",
+      "featured": false
+    },
+    {
+      "id": "calculator",
+      "nameKey": "projects.calculator.name",
+      "descriptionKey": "projects.calculator.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/OIBSIP_WebDevelopment_VirtualInternshipTasks/tree/main/LEVEL%202%20-%20TASK%201-Calculator",
+      "featured": false
+    },
+    {
+      "id": "tic-tac-toe",
+      "nameKey": "projects.tic-tac-toe.name",
+      "descriptionKey": "projects.tic-tac-toe.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Tic-Tac-Toe",
+      "featured": false
+    },
+    {
+      "id": "rock-paper-scissors",
+      "nameKey": "projects.rock-paper-scissors.name",
+      "descriptionKey": "projects.rock-paper-scissors.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Rock-Paper-Scissors",
+      "featured": false
+    },
+    {
+      "id": "travel-webpage",
+      "nameKey": "projects.travel-webpage.name",
+      "descriptionKey": "projects.travel-webpage.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/First-Year-IBM_Workshop",
+      "featured": false
+    },
+    {
+      "id": "typing-game",
+      "nameKey": "projects.typing-game.name",
+      "descriptionKey": "projects.typing-game.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Typing-Game-Challenge-Basic-",
+      "featured": false
+    },
+    {
+      "id": "temperature-converter",
+      "nameKey": "projects.temperature-converter.name",
+      "descriptionKey": "projects.temperature-converter.description",
+      "logo": "/logo/category-web.svg",
+      "logoDark": "/logo/category-web.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/BHARAT-INTERN-TASKS/tree/main/temperature-convertor-website",
+      "featured": false
+    },
+    {
+      "id": "insurai",
+      "nameKey": "projects.insurai.name",
+      "descriptionKey": "projects.insurai.description",
+      "logo": "/logo/artificial-intelligence.svg",
+      "logoDark": "/logo/artificial-intelligence.svg",
+      "year": "2025",
+      "url": "https://github.com/hardik121121/InsurAI---Application_of_LLM_And_Agentic_AI_As_An_Insurance_Product",
+      "featured": false
+    },
+    {
+      "id": "edtech-chatbot",
+      "nameKey": "projects.edtech-chatbot.name",
+      "descriptionKey": "projects.edtech-chatbot.description",
+      "logo": "/logo/artificial-intelligence.svg",
+      "logoDark": "/logo/artificial-intelligence.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/InnovateXhackathon2024_NextStep-Academy/tree/main/Chatbot",
+      "featured": false
+    },
+    {
+      "id": "intellidocs",
+      "nameKey": "projects.intellidocs.name",
+      "descriptionKey": "projects.intellidocs.description",
+      "logo": "/logo/artificial-intelligence.svg",
+      "logoDark": "/logo/artificial-intelligence.svg",
+      "year": "2025",
+      "url": "https://github.com/hardik121121/Intellidocs-Chat-with-pdfs-rag-llm-deepseekai-ollama",
+      "featured": false
+    },
+    {
+      "id": "code-companion",
+      "nameKey": "projects.code-companion.name",
+      "descriptionKey": "projects.code-companion.description",
+      "logo": "/logo/artificial-intelligence.svg",
+      "logoDark": "/logo/artificial-intelligence.svg",
+      "year": "2025",
+      "url": "https://github.com/hardik121121/DeepSeek-AI-Code-Companion-",
+      "featured": false
+    },
+    {
+      "id": "customer-churn",
+      "nameKey": "projects.customer-churn.name",
+      "descriptionKey": "projects.customer-churn.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/2nd-Year_Solvathon_IBM-ICE-DAY2024_Customer_Churn_Prediction",
+      "featured": false
+    },
+    {
+      "id": "movie-review-lstm",
+      "nameKey": "projects.movie-review-lstm.name",
+      "descriptionKey": "projects.movie-review-lstm.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Miniproject-2nd-Year---Sentimental-Analysis-on-Movie-Rating-Predictions-using-LSTM",
+      "featured": false
+    },
+    {
+      "id": "wine-quality",
+      "nameKey": "projects.wine-quality.name",
+      "descriptionKey": "projects.wine-quality.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Red-Wine-Quality-Prediction-Random-Forest-",
+      "featured": false
+    },
+    {
+      "id": "heart-disease",
+      "nameKey": "projects.heart-disease.name",
+      "descriptionKey": "projects.heart-disease.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Heart-Disease-Detection-Logistic-Regression-",
+      "featured": false
+    },
+    {
+      "id": "movie-recommendation",
+      "nameKey": "projects.movie-recommendation.name",
+      "descriptionKey": "projects.movie-recommendation.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Movie-Recommendation-System",
+      "featured": false
+    },
+    {
+      "id": "fake-news",
+      "nameKey": "projects.fake-news.name",
+      "descriptionKey": "projects.fake-news.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Fake-News-Detection",
+      "featured": false
+    },
+    {
+      "id": "pima-diabetes",
+      "nameKey": "projects.pima-diabetes.name",
+      "descriptionKey": "projects.pima-diabetes.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/EDA-on-PIMA-Diabetes-Dataset",
+      "featured": false
+    },
+    {
+      "id": "stock-knn",
+      "nameKey": "projects.stock-knn.name",
+      "descriptionKey": "projects.stock-knn.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/KNN-Stock-Price-Classification-KNN-",
+      "featured": false
+    },
+    {
+      "id": "twitter-sentiment",
+      "nameKey": "projects.twitter-sentiment.name",
+      "descriptionKey": "projects.twitter-sentiment.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Twitter-Sentiment-Analysis-Logistic-Regression-",
+      "featured": false
+    },
+    {
+      "id": "stock-trend-lstm",
+      "nameKey": "projects.stock-trend-lstm.name",
+      "descriptionKey": "projects.stock-trend-lstm.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Stock-Trend-Prediction",
+      "featured": false
+    },
+    {
+      "id": "house-price",
+      "nameKey": "projects.house-price.name",
+      "descriptionKey": "projects.house-price.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Prodigy-Infotech_Machine-Learning-Virtual-Internship_Tasks_1-to-5/tree/main/TASK1_Predict_House_Price",
+      "featured": false
+    },
+    {
+      "id": "food-calories",
+      "nameKey": "projects.food-calories.name",
+      "descriptionKey": "projects.food-calories.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Prodigy-Infotech_Machine-Learning-Virtual-Internship_Tasks_1-to-5/tree/main/TASK5_FoodCalorieEstimation",
+      "featured": false
+    },
+    {
+      "id": "mall-segmentation",
+      "nameKey": "projects.mall-segmentation.name",
+      "descriptionKey": "projects.mall-segmentation.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Prodigy-Infotech_Machine-Learning-Virtual-Internship_Tasks_1-to-5/tree/main/TASK_2_MallCustomerSegmentation",
+      "featured": false
+    },
+    {
+      "id": "hand-gesture",
+      "nameKey": "projects.hand-gesture.name",
+      "descriptionKey": "projects.hand-gesture.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Prodigy-Infotech_Machine-Learning-Virtual-Internship_Tasks_1-to-5/tree/main/Task4_HandGestureRecognitionUsingCNN",
+      "featured": false
+    },
+    {
+      "id": "cat-vs-dog",
+      "nameKey": "projects.cat-vs-dog.name",
+      "descriptionKey": "projects.cat-vs-dog.description",
+      "logo": "/logo/category-ml.svg",
+      "logoDark": "/logo/category-ml.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Prodigy-Infotech_Machine-Learning-Virtual-Internship_Tasks_1-to-5/tree/main/Task_3_Cat%20and%20dog%20image%20classification%20using%20SVM",
+      "featured": false
+    },
+    {
+      "id": "aido-assistant",
+      "nameKey": "projects.aido-assistant.name",
+      "descriptionKey": "projects.aido-assistant.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/AI-Desktop-Assistant-Using-Python-and-Tkinter",
+      "featured": false
+    },
+    {
+      "id": "django-auth",
+      "nameKey": "projects.django-auth.name",
+      "descriptionKey": "projects.django-auth.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Django-Login-and-Authentication-System",
+      "featured": false
+    },
+    {
+      "id": "whatsapp-automation",
+      "nameKey": "projects.whatsapp-automation.name",
+      "descriptionKey": "projects.whatsapp-automation.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Automate-Whatsapp-Messaging-By-Pywhatkit",
+      "featured": false
+    },
+    {
+      "id": "face-detection",
+      "nameKey": "projects.face-detection.name",
+      "descriptionKey": "projects.face-detection.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Face_Detection_Using_OpenCV_HaarCascadeClassifier",
+      "featured": false
+    },
+    {
+      "id": "encryption-tool",
+      "nameKey": "projects.encryption-tool.name",
+      "descriptionKey": "projects.encryption-tool.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Encryption-Decryption-Tool",
+      "featured": false
+    },
+    {
+      "id": "video-audio-extractor",
+      "nameKey": "projects.video-audio-extractor.name",
+      "descriptionKey": "projects.video-audio-extractor.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Audio_Extractor_From_Video",
+      "featured": false
+    },
+    {
+      "id": "gun-detection",
+      "nameKey": "projects.gun-detection.name",
+      "descriptionKey": "projects.gun-detection.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Weapon_Detection_Using_Open_Cv",
+      "featured": false
+    },
+    {
+      "id": "snake-game",
+      "nameKey": "projects.snake-game.name",
+      "descriptionKey": "projects.snake-game.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Snake-Game-Using-PYGAME-Module",
+      "featured": false
+    },
+    {
+      "id": "notepad-tkinter",
+      "nameKey": "projects.notepad-tkinter.name",
+      "descriptionKey": "projects.notepad-tkinter.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/MY-OWN-NOTEPAD-Using-Tkinter-and-Python",
+      "featured": false
+    },
+    {
+      "id": "gui-calendar",
+      "nameKey": "projects.gui-calendar.name",
+      "descriptionKey": "projects.gui-calendar.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/GUI-Calendar-using-Python-and-Tkinter",
+      "featured": false
+    },
+    {
+      "id": "digital-clock",
+      "nameKey": "projects.digital-clock.name",
+      "descriptionKey": "projects.digital-clock.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2023",
+      "url": "https://github.com/hardik121121/Digi_Clock-Using-Tkinter-and-Time-module",
+      "featured": false
+    },
+    {
+      "id": "password-generator",
+      "nameKey": "projects.password-generator.name",
+      "descriptionKey": "projects.password-generator.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Random-Password-Generator-Using-Django",
+      "featured": false
+    },
+    {
+      "id": "plagiarism-detector",
+      "nameKey": "projects.plagiarism-detector.name",
+      "descriptionKey": "projects.plagiarism-detector.description",
+      "logo": "/logo/category-python.svg",
+      "logoDark": "/logo/category-python.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Plagarism_Detector_in2files",
+      "featured": false
+    },
+    {
+      "id": "amazon-sales-dashboard",
+      "nameKey": "projects.amazon-sales-dashboard.name",
+      "descriptionKey": "projects.amazon-sales-dashboard.description",
+      "logo": "/logo/power-bi-icon.svg",
+      "logoDark": "/logo/power-bi-icon.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Data-Dash-1st-Prize---Amazon-Sales-Dashboard",
+      "featured": false
+    },
+    {
+      "id": "social-buzz-accenture",
+      "nameKey": "projects.social-buzz-accenture.name",
+      "descriptionKey": "projects.social-buzz-accenture.description",
+      "logo": "/logo/power-bi-icon.svg",
+      "logoDark": "/logo/power-bi-icon.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Accenture-Data-Analytics-and-Visualization-Virtual-Internship",
+      "featured": false
+    },
+    {
+      "id": "seismicsense-ai",
+      "nameKey": "projects.seismicsense-ai.name",
+      "descriptionKey": "projects.seismicsense-ai.description",
+      "logo": "/logo/power-bi-icon.svg",
+      "logoDark": "/logo/power-bi-icon.svg",
+      "year": "2025",
+      "url": "https://tremor-wave-oracle.lovable.app/",
+      "featured": false
+    },
+    {
+      "id": "ecommerce-analytics",
+      "nameKey": "projects.ecommerce-analytics.name",
+      "descriptionKey": "projects.ecommerce-analytics.description",
+      "logo": "/logo/power-bi-icon.svg",
+      "logoDark": "/logo/power-bi-icon.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/SkillCred-Workshop/tree/main/SkillCred/E-Commerce_Sales_analytics",
+      "featured": false
+    },
+    {
+      "id": "streaming-data-precision",
+      "nameKey": "projects.streaming-data-precision.name",
+      "descriptionKey": "projects.streaming-data-precision.description",
+      "logo": "/logo/power-bi-icon.svg",
+      "logoDark": "/logo/power-bi-icon.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/SkillCred-Workshop/tree/main/SkillCred/data_precision_in_an_online_streaming_platform",
+      "featured": false
+    },
+    {
+      "id": "voice-alchemy-paper",
+      "nameKey": "projects.voice-alchemy-paper.name",
+      "descriptionKey": "projects.voice-alchemy-paper.description",
+      "logo": "/logo/category-research.svg",
+      "logoDark": "/logo/category-research.svg",
+      "year": "2024",
+      "url": "https://github.com/hardik121121/Technical-Paper-on-Voice-Alchemy",
+      "featured": false
     }
   ],
   "certifications": [
@@ -570,6 +1178,26 @@
       "id": "pandas",
       "nameKey": "skills.pandas",
       "url": "https://pandas.pydata.org/"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "data-dash-2025",
+      "titleKey": "achievements.data-dash-2025.title",
+      "descriptionKey": "achievements.data-dash-2025.description",
+      "date": "Feb 2025",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_winner-1stposition-datadash-activity-7293619732966952960-bG_F?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/winner.svg",
+      "logoDark": "/logo/winner.svg"
+    },
+    {
+      "id": "ibm-ice-day-2024",
+      "titleKey": "achievements.ibm-ice-day-2024.title",
+      "descriptionKey": "achievements.ibm-ice-day-2024.description",
+      "date": "Mar 2024",
+      "url": "https://www.linkedin.com/posts/hardik-arora-a34143298_ibmiceday2k24-technicalpaperpresentation-activity-7175704781838012418-Mo4c?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfsaggBZfcgeq_EXJ4anoXxdi_e4T2_CnU",
+      "logo": "/logo/medal.svg",
+      "logoDark": "/logo/medal.svg"
     }
   ]
 }
