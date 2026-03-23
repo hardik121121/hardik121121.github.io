@@ -86,6 +86,10 @@ Tailwind CSS v4 — configuration lives in `app/globals.css` (no `tailwind.confi
 
 **Contact page** uses the `contact-page` translation namespace (`getTranslations("contact-page")`). Translation keys live under `contact-page` in `messages/en.json`.
 
+### SEO
+
+`app/robots.ts` and `app/sitemap.ts` use Next.js native metadata route conventions. Both require `export const dynamic = "force-static"` — without it the build fails with a static export error. `app/layout.tsx` has full OpenGraph/Twitter/canonical metadata with `metadataBase` set to `https://hardikarora.me`. Each page file exports its own `metadata` for page-specific titles and descriptions. `app/page.tsx` includes a JSON-LD Person schema for Google rich results.
+
 ### Deployment
 
-GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pages on every push to `main`. The personal GitHub SSH key (`~/.ssh/id_personal`) is configured for pushing to this repo — use `git@github.com-personal:hardik121121/...` as the remote URL format.
+GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pages on every push to `main` and on a nightly cron (`0 0 * * *`) to keep the GitHub contributions graph current. The personal GitHub SSH key (`~/.ssh/id_personal`) is configured for pushing to this repo — use `git@github.com-personal:hardik121121/...` as the remote URL format.
