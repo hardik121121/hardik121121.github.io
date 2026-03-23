@@ -75,7 +75,7 @@ export const ResumeDescription = async () => {
           className="flex h-6 w-fit items-center gap-3 p-0 font-light"
         >
           <Link
-            href="https://www.linkedin.com/in/hardik-arora-a34143298/"
+            href="https://www.linkedin.com/in/hardik-arora121/"
             target="_blank"
             rel="noreferrer"
           >
