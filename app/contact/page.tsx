@@ -1,9 +1,23 @@
 import { Icon } from "@/components/ui/icon";
 import resume from "@/resume.json";
 import { GithubIcon, LinkedinIcon, MailIcon, MapPinIcon } from "lucide-react";
+import { type Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Get in touch with Hardik Arora — AI/ML Engineer. Reach out via email, LinkedIn, or GitHub.",
+  alternates: { canonical: "https://hardikarora.me/contact" },
+  openGraph: {
+    url: "https://hardikarora.me/contact",
+    title: "Contact | Hardik Arora",
+    description:
+      "Get in touch with Hardik Arora — AI/ML Engineer. Reach out via email, LinkedIn, or GitHub.",
+  },
+};
 
 const ContactPage = async () => {
   const t = await getTranslations("contact-page");

@@ -1,6 +1,20 @@
 import resume from "@/resume.json";
 import { PenLineIcon } from "lucide-react";
+import { type Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description:
+    "Writings by Hardik Arora on AI, ML, and software engineering. Follow on Medium for the latest articles.",
+  alternates: { canonical: "https://hardikarora.me/blog" },
+  openGraph: {
+    url: "https://hardikarora.me/blog",
+    title: "Blog | Hardik Arora",
+    description:
+      "Writings by Hardik Arora on AI, ML, and software engineering. Follow on Medium for the latest articles.",
+  },
+};
 
 const BlogPage = () => {
   return (

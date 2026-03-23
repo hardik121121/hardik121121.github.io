@@ -1,8 +1,22 @@
 import { Button } from "@/components/ui/button";
 import resume from "@/resume.json";
+import { type Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "59 projects by Hardik Arora spanning AI/ML, web development, research tools, and more.",
+  alternates: { canonical: "https://hardikarora.me/projects" },
+  openGraph: {
+    url: "https://hardikarora.me/projects",
+    title: "Projects | Hardik Arora",
+    description:
+      "59 projects by Hardik Arora spanning AI/ML, web development, research tools, and more.",
+  },
+};
 
 const ProjectsPage = async () => {
   const t = await getTranslations("resume");

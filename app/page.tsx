@@ -10,9 +10,37 @@ import {
 import { getGitHubContributions } from "@/features/github/server/get-contributions";
 import { ResumeDescription } from "@/features/resume/resume-description";
 import resume from "@/resume.json";
+import { type Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { Suspense, type ReactNode } from "react";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://hardikarora.me" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Hardik Arora",
+  url: "https://hardikarora.me",
+  email: "hardikarora483@gmail.com",
+  jobTitle: "AI/ML Engineer",
+  description:
+    "Hardik Arora — AI/ML Engineer from Agra, India. Hands-on experience building and deploying ML models, passionate about scalable AI solutions.",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Agra",
+    addressRegion: "Uttar Pradesh",
+    addressCountry: "IN",
+  },
+  sameAs: [
+    "https://github.com/hardik121121",
+    "https://www.linkedin.com/in/hardik-arora-a34143298/",
+    "https://x.com/HardikArora121",
+    "https://medium.com/@hardikarora483",
+  ],
+};
 
 const Home = async () => {
   const [tHome, tResume] = await Promise.all([
@@ -70,6 +98,10 @@ const Home = async () => {
 
   return (
     <main className="flex max-w-screen flex-col items-center font-light">
+      <script
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        type="application/ld+json"
+      />
       <div className="w-full md:max-w-xl">
         <div className="mx-8 flex flex-col gap-10 md:mx-0">
           <section>

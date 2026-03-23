@@ -82,6 +82,10 @@ Tailwind CSS v4 — configuration lives in `app/globals.css` (no `tailwind.confi
 
 **Social media link:** add to `basics.socialMedia` in `resume.json` with `url`, `handle`, `logo`, `logoDark`. Used in the contact page and footer.
 
+**Blog page** (`app/blog/page.tsx`) is a static placeholder — no entries in `resume.json`, no i18n keys. It links directly to `resume.basics.socialMedia.medium.url` with hardcoded strings.
+
+**Contact page** uses the `contact-page` translation namespace (`getTranslations("contact-page")`). Translation keys live under `contact-page` in `messages/en.json`.
+
 ### Deployment
 
 GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pages on every push to `main`. The personal GitHub SSH key (`~/.ssh/id_personal`) is configured for pushing to this repo — use `git@github.com-personal:hardik121121/...` as the remote URL format.

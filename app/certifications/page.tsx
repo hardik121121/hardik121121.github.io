@@ -1,8 +1,22 @@
 import { Button } from "@/components/ui/button";
 import resume from "@/resume.json";
+import { type Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Certifications",
+  description:
+    "38 certifications earned by Hardik Arora in AI, ML, cloud, and software engineering.",
+  alternates: { canonical: "https://hardikarora.me/certifications" },
+  openGraph: {
+    url: "https://hardikarora.me/certifications",
+    title: "Certifications | Hardik Arora",
+    description:
+      "38 certifications earned by Hardik Arora in AI, ML, cloud, and software engineering.",
+  },
+};
 
 const CertificationsPage = async () => {
   const t = await getTranslations("resume");

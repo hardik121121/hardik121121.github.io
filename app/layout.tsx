@@ -9,9 +9,57 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const siteUrl = "https://hardikarora.me";
+const siteDescription =
+  "Hardik Arora — AI/ML Engineer from Agra, India. Hands-on experience building and deploying ML models, passionate about scalable AI solutions.";
+
 export const metadata: Metadata = {
-  description: "Portfolio of Hardik Arora, AI/ML Engineer",
-  title: "Hardik Arora",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Hardik Arora",
+    template: "%s | Hardik Arora",
+  },
+  description: siteDescription,
+  keywords: [
+    "Hardik Arora",
+    "AI Engineer",
+    "ML Engineer",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Python",
+    "Portfolio",
+    "Agra",
+    "India",
+  ],
+  authors: [{ name: "Hardik Arora", url: siteUrl }],
+  creator: "Hardik Arora",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: "Hardik Arora",
+    title: "Hardik Arora — AI/ML Engineer",
+    description: siteDescription,
+    images: [
+      {
+        url: "/logo/image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Hardik Arora",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Hardik Arora — AI/ML Engineer",
+    description: siteDescription,
+    creator: "@HardikArora121",
+    images: ["/logo/image.svg"],
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default async function RootLayout({
