@@ -107,7 +107,7 @@ const Home = async () => {
           <section>
             <div className="relative flex w-full">
               <div className="relative block size-20 shrink-0 md:size-28">
-                <Image alt="" fill src={avatarSrc} />
+                <Image alt="" fill priority src={avatarSrc} />
               </div>
               <div className="absolute top-1/2 left-20 -translate-y-1/2 md:left-28">
                 <h2 className="text-lg leading-6 font-medium">
