@@ -101,11 +101,11 @@
         "name": "Watermelon Software Inc.",
         "location": "Remote",
         "position": "Software Engineer Intern",
-        "summary": "Watermelon Software Inc. builds intelligent software solutions.",
+        "summary": "Watermelon Software Inc. is the world's only AI-driven software reliability platform — offering zero-code functional & non-functional testing in pre-production and SLO management with predictive remediation in production.",
         "end-date": "Present",
         "highlights": {
           "rag-system": "Built a production-grade RAG system answering queries across 2,257 pages of documentation using hybrid retrieval (Vector + BM25 + RRF), powered by OpenAI embeddings, Pinecone, Cohere reranking, and Groq LLMs — achieving 72% Precision@10 and 82% MRR.",
-          "slo-copilot": "Built a Conversational SLO Copilot that analyzes service health, alerts, and incidents to answer reliability queries in natural language, enabling engineers to diagnose issues faster and monitor SLO/SLA compliance."
+          "slo-copilot": "Working on a Conversational SLO Copilot that analyzes service health, alerts, and incidents to answer reliability queries in natural language, enabling engineers to diagnose issues faster and monitor SLO/SLA compliance."
         }
       },
       "materiallab": {
