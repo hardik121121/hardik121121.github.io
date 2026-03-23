@@ -115,9 +115,9 @@
         "summary": "Material Lab is a product studio building AI-powered web applications and client platforms.",
         "end-date": "09/25",
         "highlights": {
-          "hendrix": "Engineered features for Hendrix, an AI-powered long-form to short-video generation platform, building audio transcription pipelines using OpenAI Whisper to convert long-form content into trailers, teasers, and social media reels.",
-          "gymbo": "Built and shipped Gymbo, a white-label PWA punch tracker for gym trainers integrating Twilio authentication, OpenClaw APIs, and WhatsApp-assisted workflows.",
-          "landing-pages": "Developed SEO-optimized frontend experiences using GSAP animations; implemented a Facebook GraphQL API + GitHub Actions pipeline to sync events to landing pages, and used Remotion to generate product demo videos programmatically."
+          "hendrix": "Engineered ASR and speaker diarization pipelines for Hendrix, an AI-powered long-form to short-video generation platform, enabling automatic conversion of long-form content into trailers, teasers, and social media reels.",
+          "gymbo": "Engineered features for Gymbo, a white-label PWA punch tracker for gym trainers — integrated Twilio OTP authentication and Supabase as the backend.",
+          "landing-pages": "Delivered 4 client web products: fastbid24.com (construction-tech AI startup), perhitsiksha.org (redesign + Facebook Graph API & GitHub Actions pipeline to auto-sync events), jbsingh.com (freight & logistics), and materiallab.io (studio's own site)."
         }
       },
       "yantrapragya": {
