@@ -34,6 +34,7 @@ const jsonLd = {
     addressRegion: "Uttar Pradesh",
     addressCountry: "IN",
   },
+  image: "https://hardikarora.me/me.jpeg",
   sameAs: [
     "https://github.com/hardik121121",
     "https://www.linkedin.com/in/hardik-arora121/",

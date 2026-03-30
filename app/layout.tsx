@@ -43,9 +43,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: "/logo/image.svg",
-        width: 1200,
-        height: 630,
+        url: "/man.png",
         alt: "Hardik Arora",
       },
     ],
@@ -55,7 +53,7 @@ export const metadata: Metadata = {
     title: "Hardik Arora — AI/ML Engineer",
     description: siteDescription,
     creator: "@HardikArora121",
-    images: ["/logo/image.svg"],
+    images: ["/man.png"],
   },
   alternates: {
     canonical: siteUrl,
