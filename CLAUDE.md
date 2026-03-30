@@ -92,4 +92,4 @@ Tailwind CSS v4 — configuration lives in `app/globals.css` (no `tailwind.confi
 
 ### Deployment
 
-GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pages on every push to `main` and on a nightly cron (`0 0 * * *`) to keep the GitHub contributions graph current. The personal GitHub SSH key (`~/.ssh/id_personal`) is configured for pushing to this repo — use `git@github.com-personal:hardik121121/...` as the remote URL format.
+GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys to GitHub Pages on every push to `main` and on a nightly cron (`0 0 * * *`) to keep the GitHub contributions graph current. A second workflow (`.github/workflows/daily-commit.yml`) runs at noon UTC daily — it overwrites `.github/daily-sync` with the current timestamp and pushes the commit to keep the contribution graph active. The personal GitHub SSH key (`~/.ssh/id_personal`) is configured for pushing to this repo — use `git@github.com-personal:hardik121121/...` as the remote URL format.
