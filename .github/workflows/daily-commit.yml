@@ -1,0 +1,28 @@
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # Runs daily at noon UTC
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update sync timestamp
+        run: echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > .github/daily-sync
+
+      - name: Commit and push
+        run: |
+          git config user.name "hardik121121"
+          git config user.email "hardikarora483@gmail.com"
+          git add .github/daily-sync
+          git commit -m "chore: daily sync $(date -u +'%Y-%m-%d')"
+          git push
