@@ -7,12 +7,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 npm run dev      # Start development server at http://localhost:3000
 npm run build    # Production build (static export to out/)
-npm run lint     # Run ESLint (max-warnings 0)
+npm run lint     # Run ESLint
 ```
 
-No test suite is configured. Linting and formatting run automatically on pre-commit via lint-staged (ESLint + Prettier). Prettier also auto-organizes imports via `prettier-plugin-organize-imports`.
+No test suite is configured. Linting and formatting run automatically on pre-commit via lint-staged (ESLint with `--max-warnings 0` + Prettier). Prettier also auto-organizes imports via `prettier-plugin-organize-imports`.
 
-**Node/npm requirement:** This project uses Node 25 / npm 11 locally. The `package-lock.json` is generated with npm 11 — always use `npm install` (not `yarn` or `pnpm`) to keep the lock file in sync. CI runs Node 22 with npm 11 (npm is upgraded in CI via `npm install -g npm@11`).
+**Node/npm requirement:** This project uses Node 25 / npm 11 locally. The `package-lock.json` is generated with npm 11 — always use `npm install` (not `yarn` or `pnpm`) to keep the lock file in sync. CI runs Node 22 with its bundled npm 10.x (npm 11 upgrade was removed after the `promise-retry` MODULE_NOT_FOUND breakage on `ubuntu-latest`).
 
 ## Architecture
 
@@ -62,9 +62,10 @@ Entries use `messageKey` fields (e.g., `work.watermelon.name`) that map to trans
 - `components/kibo-ui/` — customized kibo-ui contributions graph component (edit directly if needed)
 - `components/navbar/` — site navbar with links to all pages; ghost button style on hover
 - `components/footer/` — footer with nav links, social icons (GitHub, LinkedIn, X), copyright
-- `components/theme/` — dark/light/system theme toggle
+- `components/theme/` — dark/light/system theme toggle (`next-themes`, defaults to system)
 - `features/github/` — GitHub contributions graph; fetches from `github-contributions-api.jogruber.de` using `GITHUB_USERNAME` from `features/github/constant.ts`. `getGitHubContributions()` is async but called _without_ `await` in `page.tsx`, so it returns `Promise<Activity[]>`. The client component unwraps it with React 19's `use()` hook for streaming — do not await it in `page.tsx`. The fetch is wrapped in try/catch returning `[]` on failure so the build succeeds when the API is unreachable. The graph is wrapped in `<Suspense>` with `GitHubContributionFallback`.
 - `features/resume/` — headline/contact info display
+- `@vercel/analytics` — included via `<Analytics />` in `app/layout.tsx`; no config needed
 
 ### Styling
 
