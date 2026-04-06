@@ -12,7 +12,7 @@ npm run lint     # Run ESLint
 
 No test suite is configured. Linting and formatting run automatically on pre-commit via lint-staged (ESLint with `--max-warnings 0` + Prettier). Prettier also auto-organizes imports via `prettier-plugin-organize-imports`.
 
-**Node/npm requirement:** This project uses Node 25 / npm 11 locally. The `package-lock.json` is generated with npm 11 — always use `npm install` (not `yarn` or `pnpm`) to keep the lock file in sync. CI runs Node 22 with its bundled npm 10.x (npm 11 upgrade was removed after the `promise-retry` MODULE_NOT_FOUND breakage on `ubuntu-latest`).
+**Node/npm requirement:** This project uses Node 25 / npm 11 locally. The `package-lock.json` is generated with npm 11 — always use `npm install` (not `yarn` or `pnpm`) to keep the lock file in sync. CI runs Node 24 (ships with npm 11, matching local) — Node 22 was dropped because its bundled npm 10 generated incompatible lock files.
 
 ## Architecture
 
